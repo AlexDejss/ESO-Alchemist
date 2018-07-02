@@ -1,0 +1,442 @@
+{
+    "effects":[
+        {
+            "id": 1,
+            "name":"Breach",
+            "type":"debuff"
+        },
+        {
+            "id": 2,
+            "name":"Cowardice",
+            "type":"debuff"
+        },
+        {
+            "id": 3,
+            "name":"Defile",
+            "type":"debuff"
+        },
+        {
+            "id": 4,
+            "name":"Entrapment",
+            "type":"debuff"
+        },
+        {
+            "id": 5,
+            "name":"Enervation",
+            "type":"debuff"
+        },
+        {
+            "id": 6,
+            "name":"Fracture",
+            "type":"debuff"
+        },
+        {
+            "id": 7,
+            "name":"Gradual Ravage Health",
+            "type":"debuff"
+        },
+        {
+            "id": 8,
+            "name":"Maim",
+            "type":"debuff"
+        },
+        {
+            "id": 9,
+            "name":"Hindrance",
+            "type":"debuff"
+        },
+        {
+            "id": 10,
+            "name":"Ravage Health",
+            "type":"debuff"
+        },
+        {
+            "id": 11,
+            "name":"Ravage Magicka",
+            "type":"debuff"
+        },
+        {
+            "id": 12,
+            "name":"Ravage Stamina",
+            "type":"debuff"
+        },
+        {
+            "id": 13,
+            "name":"Uncertainty",
+            "type":"debuff"
+        },
+        {
+            "id": 14,
+            "name":"Vulnerability",
+            "type":"debuff"
+        },
+        {
+            "id": 15,
+            "name":"Detection",
+            "type":"buff"
+        },
+        {
+            "id": 16,
+            "name":"Increase Armor",
+            "type":"buff"
+        },
+        {
+            "id": 17,
+            "name":"Increase Spell Power",
+            "type":"buff"
+        },
+        {
+            "id": 18,
+            "name":"Increase Spell Resist",
+            "type":"buff"
+        },
+        {
+            "id": 19,
+            "name":"Increase Spell Critical",
+            "type":"buff"
+        },
+        {
+            "id": 20,
+            "name":"Increase Weapon Critical",
+            "type":"buff"
+        },
+        {
+            "id": 21,
+            "name":"Increase Weapon Power",
+            "type":"buff"
+        },
+        {
+            "id": 22,
+            "name":"Invisible",
+            "type":"buff"
+        },
+        {
+            "id": 23,
+            "name":"Lingering Health",
+            "type":"buff"
+        },
+        {
+            "id": 24,
+            "name":"Protection",
+            "type":"buff"
+        },
+        {
+            "id": 25,
+            "name":"Restore Health",
+            "type":"buff"
+        },
+        {
+            "id": 26,
+            "name":"Restore Magicka",
+            "type":"buff"
+        },
+        {
+            "id": 27,
+            "name":"Restore Stamina",
+            "type":"buff"
+        },
+        {
+            "id": 28,
+            "name":"Speed",
+            "type":"buff"
+        },
+        {
+            "id": 29,
+            "name":"Vitality",
+            "type":"buff"
+        },
+        {
+            "id": 30,
+            "name":"Unstoppable",
+            "type":"buff"
+        }
+    ],
+    "reagents":[
+        {
+            "id": 1,
+            "name":"Beetle Scuttle",
+            "gather":"Dropped by Asssassin Beatles and Thunderbugs",
+            "effects":[
+                { "id": 1},
+                { "id": 24},
+                { "id": 16},
+                { "id": 29}
+            ]
+        },
+        {
+            "id": 2,
+            "name":"Blessed Thistle",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 27},
+                { "id": 21},
+                { "id": 10},
+                { "id": 28}
+            ]
+        },
+        {
+            "id": 3,
+            "name":"Blue Entoloma",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 11},
+                { "id": 2},
+                { "id": 25},
+                { "id": 22}
+            ]
+        },
+        {
+            "id": 4,
+            "name":"Bugloss",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 18},
+                { "id": 25},
+                { "id": 2},
+                { "id": 26}
+            ]
+        },
+        {
+            "id": 5,
+            "name":"Butterfly Wing",
+            "gather":"Dropped by Butterflies",
+            "effects":[
+                { "id": 25},
+                { "id": 23},
+                { "id": 13},
+                { "id": 29}
+            ]
+        },
+        {
+            "id": 6,
+            "name":"Columbine",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 25},
+                { "id": 26},
+                { "id": 27},
+                { "id": 30}
+            ]
+        },
+        {
+            "id": 7,
+            "name":"Corn Flower",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 26},
+                { "id": 17},
+                { "id": 10},
+                { "id": 15}
+            ]
+        },
+        {
+            "id": 8,
+            "name":"Dragonthorn",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 21},
+                { "id": 27},
+                { "id": 6},
+                { "id": 20}
+            ]
+        },
+        {
+            "id": 9,
+            "name":"Emetic Russula",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 10},
+                { "id": 11},
+                { "id": 12},
+                { "id": 4}
+            ]
+        },
+        {
+            "id": 10,
+            "name":"Fleshfly Larva",
+            "gather":"Dropped by zombies and rarely dropped by fleshflies",
+            "effects":[
+                { "id": 12},
+                { "id": 7},
+                { "id": 14},
+                { "id": 29}
+            ]
+        },
+        {
+            "id": 11,
+            "name":"Imp Stool",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 8},
+                { "id": 12},
+                { "id": 16},
+                { "id": 5}
+            ]
+        },
+        {
+            "id": 12,
+            "name":"Lady's Smock",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 17},
+                { "id": 26},
+                { "id": 1},
+                { "id": 19}
+            ]
+        },
+        {
+            "id": 13,
+            "name":"Luminous Rusula",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 12},
+                { "id": 8},
+                { "id": 25},
+                { "id": 9}
+            ]
+        },
+        {
+            "id": 14,
+            "name":"Mountain Flower",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 16},
+                { "id": 25},
+                { "id": 8},
+                { "id": 27}
+            ]
+        },
+        {
+            "id": 15,
+            "name":"Mudcrab Chitin",
+            "gather":"Dropped by mudcrabs",
+            "effects":[
+                { "id": 18},
+                { "id": 24},
+                { "id": 16},
+                { "id": 12}
+            ]
+        },
+        {
+            "id": 16,
+            "name":"Namira's Rot",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 19},
+                { "id": 28},
+                { "id": 22},
+                { "id": 30}
+            ]
+        },
+        {
+            "id": 17,
+            "name":"Nightshade",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 10},
+                { "id": 7},
+                { "id": 24},
+                { "id": 12}
+            ]
+        },
+        {
+            "id": 18,
+            "name":"Nirnroot",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 10},
+                { "id": 13},
+                { "id": 5},
+                { "id": 22}
+            ]
+        },
+        {
+            "id": 19,
+            "name":"Scrib Jelly",
+            "gather":"Dropped by Scribs",
+            "effects":[
+                { "id": 11},
+                { "id": 14},
+                { "id": 28},
+                { "id": 23}
+            ]
+        },
+        {
+            "id": 20,
+            "name":"Spider Egg",
+            "gather":"Dropped by Spiders",
+            "effects":[
+                { "id": 9},
+                { "id": 23},
+                { "id": 22},
+                { "id": 12}
+            ]
+        },
+        {
+            "id": 21,
+            "name":"Stinkhorn",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 6},
+                { "id": 10},
+                { "id": 21},
+                { "id": 12}
+            ]
+        },
+        {
+            "id": 22,
+            "name":"Torchbug Thorax",
+            "gather":"Dropped by Torchbugs",
+            "effects":[
+                { "id": 6},
+                { "id": 5},
+                { "id": 15},
+                { "id": 29}
+            ]
+        },
+        {
+            "id": 23,
+            "name":"Violet Coprinus",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 1},
+                { "id": 10},
+                { "id": 17},
+                { "id": 11}
+            ]
+        },
+        {
+            "id": 24,
+            "name":"Water Hyacinth",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 25},
+                { "id": 19},
+                { "id": 20},
+                { "id": 4}
+            ]
+        },
+        {
+            "id": 25,
+            "name":"White Cap",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 2},
+                { "id": 11},
+                { "id": 18},
+                { "id": 15}
+            ]
+        },
+        {
+            "id": 26,
+            "name":"Wormwood",
+            "gather":"Gathered in the landscape",
+            "effects":[
+                { "id": 20},
+                { "id": 9},
+                { "id": 15},
+                { "id": 30}
+            ]
+        }
+    ]
+}

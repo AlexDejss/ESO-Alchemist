@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ESO Alchemist</string>
+    <string name="effect_1">Effect 1</string>
+    <string name="effect_2">Effect 2</string>
+    <string name="effect_3">Effect 3</string>
+    <string name="effect_4">Effect 4</string>
+    <string name="name">Name</string>
+    <string name="reset">Reset</string>
+</resources>
